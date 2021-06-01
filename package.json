@@ -1,0 +1,36 @@
+{
+  "name": "klassmate-api",
+  "version": "0.0.1",
+  "description": "An API to manage eductional activities remotely",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ComicScrip/klassmate-api.git"
+  },
+  "author": "Pierre Genthon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ComicScrip/klassmate-api/issues"
+  },
+  "homepage": "https://github.com/ComicScrip/klassmate-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.5",
+    "husky": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
