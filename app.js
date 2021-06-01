@@ -1,7 +1,11 @@
+require('dotenv').config();
 const express = require('express');
-const PORT = 5000;
+
+const { PORT } = process.env;
 
 const app = express();
+
+require('./routes')(app);
 
 // server setup
 app.listen(PORT, () => {

@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ComicScrip/klassmate-api.git"
+    "url": "git+https://github.com/ComicScrip/support-api.git"
   },
   "author": "Pierre Genthon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ComicScrip/klassmate-api/issues"
+    "url": "https://github.com/ComicScrip/support-api/issues"
   },
-  "homepage": "https://github.com/ComicScrip/klassmate-api#readme",
+  "homepage": "https://github.com/ComicScrip/support-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@prisma/client": "^2.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "prisma": "^2.24.0"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
