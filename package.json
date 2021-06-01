@@ -1,7 +1,7 @@
 {
-  "name": "klassmate-api",
+  "name": "support-api",
   "version": "0.0.1",
-  "description": "An API to manage eductional activities remotely",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -18,11 +18,7 @@
   },
   "homepage": "https://github.com/ComicScrip/klassmate-api#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "joi": "^17.4.0",
-    "mysql2": "^2.2.5"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^7.24.0",
