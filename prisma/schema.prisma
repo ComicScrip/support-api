@@ -10,7 +10,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-model Beverages {
+model beverage {
   id    Int     @id @default(autoincrement())
   name  String  @db.VarChar(255)
   type  String  @db.VarChar(100)

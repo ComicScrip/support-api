@@ -5,6 +5,8 @@ const { PORT } = process.env;
 
 const app = express();
 
+app.use(express.json());
+
 require('./routes')(app);
 
 // server setup
